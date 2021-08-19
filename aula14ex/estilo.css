@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(101, 41, 212, 0.671);
+    font: normal 13pt Arial;
+    text-align: justify;
+}
+
+header {
+    color: azure;
+    text-align: center;
+}
+
+section {
+    background: azure;
+    border-radius: 10px;
+    padding: 100px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 7px 7px 10px rgba(11, 26, 163, 0.404);
+}
+
+footer {
+    color: azure;
+    text-align: center;
+    font-style: italic;
+}
