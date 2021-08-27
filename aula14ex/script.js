@@ -8,6 +8,10 @@ function contar() {
     fim = parseInt(fim);
 
     let string = "";
+    if (passo <= 0) {
+        window.alert("Passo Inválido! Considerando PASSO 1")
+        passo = 1
+    }
     
     while (inicio < fim) {
         string += inicio.toString() + " ";
